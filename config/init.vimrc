@@ -19,6 +19,8 @@ Plug 'sheerun/vim-polyglot' " A collection of language packs for Vim.
 Plug 'terryma/vim-multiple-cursors' " Ctrl n multi cursor
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.2' }
+Plug 'BurntSushi/ripgrep'
+Plug 'sharkdp/fd'
 
 " editing
 Plug 'Raimondi/delimitMate' " automatic closing of quotes, parenthesis, brackets, etc.

@@ -125,3 +125,4 @@ let g:pymode_lint = 1
 let g:pymode_python = 'python3'
 " fold
 autocmd BufReadPost,BufEnter *.py normal zM
+

@@ -9,7 +9,7 @@ require("mason").setup({
 })
 
 require("mason-lspconfig").setup({
-    ensure_installed = { "lua-ls", "tsserver", "tailwindcss", "pyright", "terraformls", "bashls", "rust_analyzer", "sonarlint" }
+    ensure_installed = { "lua-ls", "tsserver", "tailwindcss", "pyright", "terraformls", "bashls", "rust_analyzer" }--, "sonarlint"-- }
 })
 
 require'lspconfig'.pyright.setup{}

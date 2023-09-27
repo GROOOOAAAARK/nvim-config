@@ -35,10 +35,14 @@ Plug 'tpope/vim-surround' " ysiw' | ds{ds)  provides mappings to easily delete, 
 Plug 'tpope/vim-unimpaired' " [a cursor to previous a, ]x cursor to next x
 Plug 'vim-scripts/camelcasemotion' " when w,e,b help cursor stay at camelCaseWord
 
-" LSP
+" LSP & frens
 Plug 'williamboman/mason.nvim'
 Plug 'williamboman/mason-lspconfig.nvim'
 Plug 'neovim/nvim-lspconfig'
+Plug 'mfussenegger/nvim-dap'
+Plug 'rcarriga/nvim-dap-ui'
+Plug 'mfussenegger/nvim-lint'
+Plug 'mhartington/formatter.nvim'
 
 " eye candy
 Plug 'lilydjwg/colorizer', { 'on': 'ColorToggle' } " #aaa to Colorize

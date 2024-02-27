@@ -156,3 +156,8 @@ nnoremap <leader>fh <cmd>lua require('telescope.builtin').help_tags()<cr>
 " Esc edit mode
 inoremap jk <Esc>
 inoremap kj <Esc>
+
+nnoremap <leader>ff <cmd>Telescope find_files<cr>
+nnoremap <leader>jj <cmd>Telescope current_buffer_fuzzy_find<cr>
+nnoremap <leader>fg <cmd>Telescope live_grep<cr>
+nnoremap <leader>fb <cmd>Telescope buffers<cr>

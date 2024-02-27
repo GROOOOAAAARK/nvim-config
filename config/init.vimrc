@@ -19,6 +19,7 @@ Plug 'sheerun/vim-polyglot' " A collection of language packs for Vim.
 Plug 'terryma/vim-multiple-cursors' " Ctrl n multi cursor
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.2' }
+Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'BurntSushi/ripgrep'
 Plug 'sharkdp/fd'
 
@@ -92,5 +93,8 @@ Plug 'wavded/vim-stylus' " for stylus
 
 " json
 Plug 'elzr/vim-json' " distinct highlighting of keywords vs values, JSON-specific (non-JS) warnings, quote concealing. Pathogen-friendly, support in polyglot
+
+" Terraform
+Plug 'hashivim/vim-terraform'
 
 call plug#end()

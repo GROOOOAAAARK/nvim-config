@@ -2,17 +2,17 @@ filetype plugin indent on
 
 " deoplete
 
-let g:deoplete#enable_at_startup = 1
-let g:deoplete#disable_auto_complete = 1
-autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
-let g:deoplete#omni_input_patterns = {}
+" let g:deoplete#enable_at_startup = 1
+" let g:deoplete#disable_auto_complete = 1
+" autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
+" let g:deoplete#omni_input_patterns = {}
 " if !exists('g:deoplete#omni#input_patterns')
 "   let g:deoplete#omni#input_patterns = {}
 " endif
 
 if system('uname -s') == "Darwin\n"
   " OSX
-  let g:python3_host_prog = '/opt/homebrew/Caskroom/miniforge/base/bin/python3'
+  let g:python3_host_prog = '/opt/homebrew/Cellar/python@3.12/3.12.6/bin/python3'
   " /usr/local/bin/python3
 else
   " Linux
@@ -115,8 +115,8 @@ autocmd Filetype php setlocal ts=4 sw=4 sts=0 expandtab
 autocmd Filetype blade setlocal ts=2 sw=2 sts=0 expandtab
 
 " vim-go
-let g:deoplete#sources#go#gocode_binary = $GOPATH.'/bin/gocode'
-let g:deoplete#sources#go#sort_class = ['package', 'func', 'type', 'var', 'const']
+" let g:deoplete#sources#go#gocode_binary = $GOPATH.'/bin/gocode'
+" let g:deoplete#sources#go#sort_class = ['package', 'func', 'type', 'var', 'const']
 autocmd Filetype go setlocal ts=2 sw=2 sts=0 expandtab
 
 " Python
